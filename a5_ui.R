@@ -13,7 +13,7 @@ library(plotly)
 library(ggplot2)
 library(shinythemes)
 
-# Define UI for application that draws a histogram
+# Define UI for application
 first_page <- tabPanel(
   "Project Overview",
   sidebarPanel(
@@ -38,7 +38,7 @@ first_page <- tabPanel(
     p("From this chart, I found several interesting things. The first is that in 1971, Europe had the highest cement CO2 emissions with around 161 million tonnes. The second is that in 2021, Asia had around 1359 million tonnes of CO2 emissions from cement production. Almost 8.5 times as much as Europe did in 1971. The third is that in 1971, Oceania only had around 2.9 million tonnes of CO2 emissions from cement production, and in 2021, it had increased to only 3.2 million tonnes.")
   ))
 
-#2nd page, bar chart of disasters declared in different countries since 1970
+#2nd page, bar chart of CO2 Emissions by Continent
 
 second_page <- tabPanel(
   "Cement CO2 Emissions",
