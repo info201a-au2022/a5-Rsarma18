@@ -8,9 +8,12 @@
 #
 
 library(shiny)
+library(dplyr)
+library(plotly)
+library(ggplot2)
+library(shinythemes)
 
-
-# Define server logic required to draw a histogram
+# Define server logic 
 server <- function(input, output) {
   
   # Makes Dataframe of Cement CO2 Emissions since 1928  
