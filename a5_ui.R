@@ -8,6 +8,7 @@
 #
 
 library(shiny)
+library(tidyr)
 library(dplyr)
 library(plotly)
 library(ggplot2)
@@ -62,3 +63,4 @@ ui <- navbarPage(
   first_page,
   second_page,
 )
+
