@@ -14,6 +14,9 @@ library(plotly)
 library(ggplot2)
 library(shinythemes)
 
+a5_data <- read.csv("https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.csv")
+
+
 # Define UI for application
 first_page <- tabPanel(
   "Project Overview",
